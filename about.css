@@ -1,0 +1,74 @@
+.about{
+    padding: 40px 0;
+}
+.about .container{
+    display: flex;
+    justify-content: center;
+}
+.about .about-img img{
+    width: 450px;
+    border-radius: 10px;
+}
+.about .content{
+    margin-left: 30px;
+}
+.about .content h1{
+    color: #d2d2d2;
+    font-size: 45px;
+}
+.about .content h1 span{
+    color: #cd0000de;
+}
+.about .content h3{
+    color: #838486;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.about .content p{
+    color-scheme: #f0eded;
+    line-height: 1.8;
+    margin-bottom: 70px;
+    color: #e58888;
+}
+.btn{
+    padding: 15px 30px;
+    color: #1c1e22;
+    font-weight: 500;
+    background-color: #f13333de;
+    border-radius: 10px;
+    border: 5px solid #ab0606de;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    color:#000000;
+    background-color:#fff;
+}
+.hero .content .btn{
+    font-size: 18px;
+}
+.about{
+    height: 100vh;
+    background: url(https://burst.shopifycdn.com/photos/fog-on-dark-waters-edge.jpg?width=1000&format=pjpg&exif=0&iptc=0);
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+@media(max-width:1200px){
+    .about .content h3{
+        font-size: 20px;
+    }
+    .about .content p{
+        margin-bottom: 50px;
+    }
+    .about .about-img {
+        width: 380px;
+    }
+}
+@media(max-width:900px){
+    .about .container{
+        flex-direction: column;
+        text-align: center;
+    }
+}
